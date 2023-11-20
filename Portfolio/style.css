@@ -1,0 +1,76 @@
+ .gradient-background  {
+    background: rgb(25,237,97);
+    background: linear-gradient(90deg, rgba(25,237,97,1) 50%, rgba(0,0,0,1) 50%);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease forwards;
+  }
+  
+  @keyframes gradient-animation  {
+    0% {
+      background-position:0% 80%;
+    }
+    50% {
+      background-position: 50% 50% ;
+    }
+    100% {
+      background-position: 50% 50%;
+    }
+  }
+
+  @media (max-width:900px ){
+    .gradient-background{
+      background: rgb(25,237,97);
+     background: linear-gradient(0deg, rgba(25,237,97,1) 35%, rgba(0,0,0,1) 35%);
+     animation: gradient-animation 5s ease forwards;
+    }
+    
+  }
+
+
+  /* <section id="title" class="gradient-background">
+    <nav class="navbar navbar-expand-lg navbar-dark mt-0 pt-1 bg-black ">
+    <div class="container ">
+      <a class="navbar-brand" href="#"><img src="./img/m-a-ma-initial-letter-logo-design-template-vector-30018267-removebg-preview.png" class="position-sm-relative position-lg-absolute top-0 start-lg-1 " width="90" height="70"></a>
+      
+      <div class=" justify-content-center " >
+        <ul class="navbar-nav gap-lg-5 gap-sm-2 ">
+          <li class="nav-item">
+            <a class="nav-link text-white fs-lg-5 fs-sm-3" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fs-lg-5 fs-sm-3" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fs-lg-5 fs-sm-3" href="#">Projects</a>
+          </li>
+        </ul>
+      </div>
+      <!-- <a class="nav-mobile__button js-mobile-button" href="">Menu</a> -->
+      <div class="navbar-nav">
+       <button type="button" class="btn btn-outline-success  text-white fs-6">Contact Me
+       </button></div>
+    </div>
+  </nav>
+  
+<div class="container col-xxl-8 px-1 py-6 ">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-5 col-sm-12 col-lg-5">
+        <img src="./img/Mohamad-removebg.png" class=" mx-lg-auto   rounded-circle "  width="300" >
+      </div>
+      <div class="col-lg-7">
+        <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3">Hello,I'm Mohamad Adam</h1>
+        <p class=" fs-3"> Full stuck Web Developer.</p>
+        <div class="d-grid  d-md-flex justify-content-md-start">
+          <button type="button" class="btn bg-black text-white btn-lg px-4 me-md-2 ">More About Me
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+</body>
+</html> */
